@@ -2,7 +2,7 @@
 
 This is a script that generates a signed transaction that, when broadcasted, will onboard the respective user onto [friend.tech](https://www.friend.tech/).
 
-This allows creators to be onboarded in a priviledged manner, by my team, without having to sacrifice their private key.
+This allows creators to be onboarded, by my team, onto the platform in a priviledged manner (guarantee ownership of the creator's first `N` shares, for example).
 
 ## Usage
 
@@ -26,7 +26,7 @@ Make sure you are in the project directory. Then, run the following command:
 python main.py
 ```
 
-### Example Flow
+### Example User Flow
 
 ```bash
 $ python main.py
@@ -56,7 +56,7 @@ _user pastes their private key, and presses enter_
 ##
 ## Your Signed Transaction is Below:
 
-0x02f8b482210580851bf08eb000851e449a940083015f9094cf205808ed36593aa40a44f10c7f7c2f67d4a4d480b8446945b12300000000000000000000000021ee967cc4a538b28f3c94d0ef0103f51dd71f5a0000000000000000000000000000000000000000000000000000000000000001c080a059d375d50ddc2d13c31d5f8306eb7ae072de985d88fa0e0b80143e7f2aaaef07a0173b68fad1d9465fe9104d200bb444c07a3aab8bf653b7b352141bc0e5b010f3
+0x02f8b482210580851bf08eb000851e449a940083015REDACTED08ed36593aa40a44f10c7f7c2f67d4a4d480b8446945b12300000000000000000000000021ee967REDACTED28f3c94d0ef0103f51dd71f5a0000000000000000000000000000000000000000000000000000000000000001c080a059d375d50ddc2d13c31d5f8306eb7ae072de985d88fREDACTED43e7f2aaaef07a0173b68fad1d9465fe9104d200bb444c07a3aab8bf653b7b352141bc0e5b010f3
 
 ##                                                          ##
 ##############################################################
